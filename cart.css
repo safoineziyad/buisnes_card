@@ -1,0 +1,35 @@
+/* Conteneur principal avec bordure pour l'ensemble de la page */
+.main-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 8px solid;
+    border-image: linear-gradient(45deg, #af4261, #f3ec78) 1;
+    border-radius: 12px;
+    background-color: #021526;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.business-card {
+    padding: 20px;
+}
+
+.title {
+    font-size: 1.5em;
+    color: #f3ec78;
+    font-weight: bold;
+}
+
+.contact-info a {
+    color: #f3ec78;
+    text-decoration: none;
+    border-image: linear-gradient(45deg, #af4261, #f3ec78) 1;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+}
